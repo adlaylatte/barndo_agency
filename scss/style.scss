@@ -1,0 +1,290 @@
+@import url('./fonts.css');
+@import url('./reset.css');
+@import url('./skip.css');
+
+// 중첩코딩
+#wrap {
+    width: 100%;
+    height: 100%;
+    #header {
+        z-index: 3;
+        position: fixed;
+        width: 100%;
+        height: 76px;
+        top: 0;
+        left: 0;
+        border-bottom: 1px solid rgba(255,255,255,0.15);
+        .container {
+            width: 100%;
+            height: 100%;
+            max-width: 1170px;
+            height: 0 15px;
+            margin: 0 auto;
+            .gap {
+                padding: 0 15px;
+                width: 100%;
+                height: 100%;
+                .content {
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: center;
+                    .logo { 
+                        width: 156px;
+                        .col-gap {
+                            width: 100%;
+                            h1 {
+                                width: 100%;
+                                a {
+                                    width: 100%;
+                                    height: 100%;
+                                    display: block;
+                                    padding: 11px 0;
+                                    img {
+                                        width: 100%;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    nav {
+                        ul {
+                            display: flex;
+                            li {
+                                padding: 15px 20px;
+                                a {
+                                    color: #fff;
+                                    font-size: 12px;
+                                    font-weight: 600;
+                                    transition: .3s;
+                                    &:hover {
+                                        opacity: .5;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .right-box {
+                        .text-box {}
+                        .btn {}
+                    }
+                }
+            }
+        }
+    }
+    #main {
+        z-index: 2;
+        position: relative;
+        width: 100%;
+        #section1 {
+            width: 100%;
+            .container {
+                width: 100%;
+                cursor: url(../img/icon-move-light.png), auto;
+                .gap {
+                    width: 100%;
+                    .content {
+                        width: 100%;
+                        .slide-container {
+                            width: 100%;
+                            position: relative;
+                            z-index: 1;
+                            .slide-view {
+                                width: 100%;
+                                overflow: hidden;
+                                .slide-wrap {
+                                    width: 100% * 4;
+                                    display: flex;
+                                    animation: slide 12s infinite ease-in-out;
+                                    .slide {
+                                        width: 100%;
+                                        height: 100vh;
+                                        background: url() no-repeat 50% 50%;
+                                        background-size: cover;
+                                        &.slide1 {
+                                            background-image: url(../img/slider-img1.jpg);
+                                            .title-box {
+                                                z-index: 2;
+                                                position: relative;
+                                                width: 100%;
+                                                height: 100%;
+                                                max-width: 1170px;
+                                                margin: 0 auto;
+                                                .col-gap {
+                                                    display: flex;
+                                                    flex-flow: column wrap;
+                                                    justify-content: center;
+                                                    width: 100%;
+                                                    height: 100%;
+                                                    padding: 0 15px;
+                                                    text-align: left;
+                                                    text-transform: uppercase;
+                                                    h2 {
+                                                        font-size: 100px;
+                                                        font-weight: 700;
+                                                        color: #fff;
+                                                    }
+                                                    hr {
+                                                        width: 570px;
+                                                        height: 8px;
+                                                        border: 0;
+                                                        margin: 80px 0;
+                                                        background: #fdd947;
+                                                    }
+                                                    p {
+                                                        font-size: 15px;
+                                                        color: #fff;
+                                                        font-weight: 500;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                        &.slide2 {
+                                            background-image: url(../img/slider-img2.jpg);
+                                            .title-box {
+                                                z-index: 2;
+                                                position: relative;
+                                                width: 100%;
+                                                height: 100%;
+                                                max-width: 1170px;
+                                                margin: 0 auto;
+                                                .col-gap {
+                                                    display: flex;
+                                                    flex-flow: column wrap;
+                                                    justify-content: center;
+                                                    width: 100%;
+                                                    height: 100%;
+                                                    padding: 0 15px;
+                                                    text-align: left;
+                                                    text-transform: uppercase;
+                                                    h2 {
+                                                        font-size: 100px;
+                                                        font-weight: 700;
+                                                        color: #fff;
+                                                    }
+                                                    hr {
+                                                        width: 570px;
+                                                        height: 8px;
+                                                        border: 0;
+                                                        margin: 80px 0;
+                                                        background: #fdd947;
+                                                    }
+                                                    p {
+                                                        font-size: 15px;
+                                                        color: #fff;
+                                                        font-weight: 500;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                        &.slide3 {
+                                            background-image: url(../img/slider-img3.jpg);
+                                            .title-box {
+                                                z-index: 2;
+                                                position: relative;
+                                                width: 100%;
+                                                height: 100%;
+                                                max-width: 1170px;
+                                                margin: 0 auto;
+                                                .col-gap {
+                                                    display: flex;
+                                                    flex-flow: column wrap;
+                                                    justify-content: center;
+                                                    width: 100%;
+                                                    height: 100%;
+                                                    padding: 0 15px;
+                                                    text-align: left;
+                                                    text-transform: uppercase;
+                                                    h2 {
+                                                        font-size: 100px;
+                                                        font-weight: 700;
+                                                        color: #fff;
+                                                    }
+                                                    hr {
+                                                        width: 570px;
+                                                        height: 8px;
+                                                        border: 0;
+                                                        margin: 80px 0;
+                                                        background: #fdd947;
+                                                    }
+                                                    p {
+                                                        font-size: 15px;
+                                                        color: #fff;
+                                                        font-weight: 500;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                        &::after {
+                                            content: '';
+                                            position: absolute;
+                                            left: 0;
+                                            top: 0;
+                                            width: 100%;
+                                            height: 100%;
+                                            background: rgba(37, 37, 37,0.26);
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        @keyframes slide {
+              0.00% {transform: translateX( -1903px * 0);}
+              8.33% {transform: translateX( -1903px * 0);}
+             16.67% {transform: translateX( -1903px * 0);}
+             25.00% {transform: translateX( -1903px * 0);}
+             33.33% {transform: translateX( -1903px * 1);}
+             41.67% {transform: translateX( -1903px * 1);}
+             50.00% {transform: translateX( -1903px * 1);}
+             58.33% {transform: translateX( -1903px * 1);}
+             66.66% {transform: translateX( -1903px * 2);}
+             75.00% {transform: translateX( -1903px * 2);}
+             83.33% {transform: translateX( -1903px * 2);}
+             91.66% {transform: translateX( -1903px * 2);}
+            100.00% {transform: translateX( -1903px * 3);}
+
+        }
+
+        #section2 {
+            width: 100%;
+            height: 100vh;
+            background: url();
+        }
+        #section3 {}
+        #section4 {}
+        #section5 {}
+        #section6 {}
+        #section7 {}
+        #section8 {}
+        #section9 {}
+        #section10 {}
+        #section11 {}
+        #section12 {}
+        #section13 {}
+        #section14 {
+            .container {
+                width: 100%;
+                height: 568.953px + 130px + 130px;
+                .gap {
+                    padding: 130px 0;
+                    .content {}
+                }
+            }
+        }
+        #section15 {}
+    }
+    #footer {
+        z-index: 1;
+        position: relative;
+        width: 100%;
+        height: 225px;
+        background: #fff;
+        border-top:#e5e5e5;
+    }
+}
